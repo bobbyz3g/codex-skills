@@ -1,0 +1,4 @@
+interface:
+  display_name: "Use Modern Go"
+  short_description: "Modern Go patterns for the target version"
+  default_prompt: "Use $use-modern-go to modernize this Go code for the version declared in go.mod."

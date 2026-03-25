@@ -1,0 +1,4 @@
+interface:
+  display_name: "MySQL DBA Copilot"
+  short_description: "Evidence-first triage for a slow MySQL incident"
+  default_prompt: "Use $mysql-dba-copilot to analyze this slow MySQL incident from pasted outputs and produce a risk-tiered triage report."

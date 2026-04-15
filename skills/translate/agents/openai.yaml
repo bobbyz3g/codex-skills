@@ -1,0 +1,4 @@
+interface:
+  display_name: "Translate"
+  short_description: "Translate and localize with reusable preferences"
+  default_prompt: "Use $translate to translate this content while preserving formatting and terminology."

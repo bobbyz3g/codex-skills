@@ -1,0 +1,4 @@
+interface:
+  display_name: "Solution Design"
+  short_description: "Practical designs with explicit tradeoffs"
+  default_prompt: "Use $solution-design to propose a practical technical design with key tradeoffs, uncertain assumptions, and verification criteria."

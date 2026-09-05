@@ -48,6 +48,8 @@ A planning-only request remains read-only. Implementation requests retain their 
 
 Modernize Go code using features available in the relevant `go.mod` version. The skill checks the target version first, prefers suitable standard-library improvements, and preserves repository conventions.
 
+The bundled version detector reads the nearest `go.mod` from an explicit target file or directory. It runs with Node.js on Windows, macOS, and Linux without invoking Go or Unix utilities, and handles CRLF, UTF-8 BOMs, spaces and Unicode in paths, and patch versions. If Node.js is unavailable, the skill provides a native file-reading fallback. The installed Go toolchain does not override the module's declared compatibility target.
+
 ```text
 Use $use-modern-go to modernize this Go code for the version declared in go.mod.
 ```
